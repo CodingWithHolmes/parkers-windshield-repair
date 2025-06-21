@@ -1,0 +1,58 @@
+# Parker's Windshield Repair Website - Development Rules
+
+## Project Overview
+- Single-page website for windshield repair business
+- Hosted on GitHub Pages
+- Minimal, clean, professional, and modern design
+- No clunky or outdated feel
+
+## Technology Stack
+- **Primary**: HTML, CSS, JavaScript (static site for GitHub Pages compatibility)
+
+
+## Design Principles
+- **Minimal**: Clean layouts with plenty of white space
+- **Professional**: Modern typography and color schemes
+- **Mobile-first**: Responsive design that works on all devices
+- **Fast loading**: Optimized images and minimal dependencies
+- **Accessible**: WCAG compliant for all users
+
+## Code Standards
+- Use semantic HTML5 elements
+- CSS: Use modern CSS with flexbox/grid, avoid heavy frameworks
+- JavaScript: Vanilla JS preferred, minimal dependencies
+- Images: Optimize for web, use appropriate formats (WebP when possible)
+- File naming: kebab-case for files and folders
+- Comments: Clear, concise comments for complex sections
+
+## File Structure
+```
+/
+├── index.html
+├── css/
+│   └── styles.css
+├── js/
+│   └── main.js
+├── images/
+│   ├── before-after/
+│   └── icons/
+└── README.md
+```
+
+## Features to Implement
+1. **Header**: Company name "Parker's Windshield Repair" with contact info
+2. **Gallery**: Before/after image carousel with navigation arrows
+3. **Reviews**: Customer testimonials section
+4. **Contact**: Prominent contact information
+5. **Mobile responsive**: Works perfectly on all screen sizes
+
+## Performance Goals
+- Page load time < 3 seconds
+- Optimized images (max 500KB each)
+- Minimal JavaScript bundle
+- Fast scrolling and smooth animations
+
+## Browser Support
+- Modern browsers (Chrome, Firefox, Safari, Edge)
+- Mobile browsers (iOS Safari, Chrome Mobile)
+- Graceful degradation for older browsers 
