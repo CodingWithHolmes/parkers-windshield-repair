@@ -4,7 +4,7 @@ class ImageGallery {
         this.currentIndex = 0;
         this.galleryData = [
             {
-                image: 'images/before-after/placeholder-1.jpg',
+                image: 'images/before-after/fordfiesta1.png',
                 alt: 'Windshield crack repair before and after',
                 beforeLabel: 'Before',
                 afterLabel: 'After'
